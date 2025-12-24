@@ -30,7 +30,7 @@ const Hero = () => {
           
           {/* Title */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 opacity-0 animate-slide-up stagger-2">
-            AI & Machine Learning Enthusiast • Research Assistant • Software Developer
+            Data Scientist • Research Assistant • Content Creator
           </p>
           
           {/* Description */}

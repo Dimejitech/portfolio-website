@@ -14,13 +14,13 @@ const About = () => {
     },
     {
       icon: Code2,
-      title: "Full Stack Dev",
-      description: "Python, TypeScript, Rust"
+      title: "Data Scientist",
+      description: "Python, Matplotlib, Seaborn"
     },
     {
       icon: Award,
       title: "Award Winner",
-      description: "Google AI Hackathon"
+      description: "Google AI4Culture Hackathon, Lagos Impact Hackathon"
     }
   ];
 
@@ -42,7 +42,7 @@ const About = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I'm a Computer Science student at <span className="text-foreground font-medium">Pan-Atlantic University</span>, 
                 Lagos, Nigeria, currently pursuing my Bachelor's degree with a focus on Artificial Intelligence 
-                and Machine Learning.
+                and Data Science.
               </p>
               
               <p className="text-muted-foreground leading-relaxed">
@@ -52,9 +52,7 @@ const About = () => {
               </p>
               
               <p className="text-muted-foreground leading-relaxed">
-                Beyond academics, I serve as a Class Representative and Project Manager for the Technology 
-                Innovation Club, where I lead initiatives that bridge the gap between theoretical knowledge 
-                and practical application.
+                Beyond academics, I am actively involved in research and create content to educate everyone on everything I'm learning!.
               </p>
 
               {/* Key Courses */}
