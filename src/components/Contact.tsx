@@ -17,7 +17,7 @@ const Contact = () => {
     {
       icon: Youtube,
       label: "YouTube",
-      href: "https://youtube.com",
+      href: "https://youtube.com/@DimejiTech",
       username: "YouTube Channel"
     },
     {

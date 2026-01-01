@@ -9,7 +9,7 @@ const Projects = () => {
       description: "Designed a Bayesian Network to model medical risk factors and their influence on heart disease using PGMs. Applied probabilistic inference to predict health outcomes.",
       tags: ["Python", "NetworkX", "Bayesian Networks", "Healthcare"],
       gradient: "from-primary/20 to-accent/20",
-      github: "https://github.com/Dimejitech"
+      github: "https://github.com/Dimejitech/Probability-Graphical-Model"
     },
     {
       icon: Shield,
@@ -18,7 +18,7 @@ const Projects = () => {
       description: "Built a spam classifier achieving 95.6% accuracy using TF-IDF vectorization and Naïve Bayes. Processed 5,574 messages with optimized preprocessing.",
       tags: ["Python", "NLP", "Scikit-learn", "TF-IDF"],
       gradient: "from-accent/20 to-primary/20",
-      github: "https://github.com/Dimejitech"
+      github: "https://github.com/Dimejitech/Spam-Detection-Using-Naive-Bayes-and-Natural-Language-Processing"
     },
     {
       icon: Brain,
@@ -27,7 +27,7 @@ const Projects = () => {
       description: "Analyzed 284,807 transactions to detect fraud using Random Forests. Applied SMOTE oversampling achieving ROC-AUC of 0.96.",
       tags: ["Python", "Random Forest", "SMOTE", "Finance"],
       gradient: "from-primary/20 to-accent/20",
-      github: "https://github.com/Dimejitech"
+      github: "https://github.com/Dimejitech/Credit-Card-Fraud-Detection"
     },
     {
       icon: Bot,

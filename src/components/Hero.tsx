@@ -60,7 +60,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://youtube.com" 
+              href="https://youtube.com/@DimejiTech" 
               target="_blank" 
               rel="noopener noreferrer"
               className="glass-card p-3 hover-lift hover:border-primary/50 transition-colors"
