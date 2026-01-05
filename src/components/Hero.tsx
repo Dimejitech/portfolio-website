@@ -1,4 +1,4 @@
-import { Github, Linkedin, Youtube, Mail, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Youtube, Mail, ChevronDown, Send } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -39,8 +39,25 @@ const Hero = () => {
             Passionate about leveraging AI and data science to solve real-world problems.
           </p>
           
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 opacity-0 animate-slide-up stagger-4">
+            <a 
+              href="mailto:abaniwonndadimeji@gmail.com"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 hover:-translate-y-1"
+            >
+              <Send className="w-5 h-5" />
+              <span>Hire Me</span>
+            </a>
+            <a 
+              href="#projects"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-border bg-secondary/50 text-foreground font-semibold hover:bg-secondary hover:border-primary/50 transition-all duration-300"
+            >
+              <span>View My Work</span>
+            </a>
+          </div>
+          
           {/* Social Links */}
-          <div className="flex items-center justify-center gap-4 mb-16 opacity-0 animate-slide-up stagger-4">
+          <div className="flex items-center justify-center gap-4 mb-16 opacity-0 animate-slide-up stagger-5">
             <a 
               href="https://github.com/Dimejitech" 
               target="_blank" 
@@ -60,7 +77,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://youtube.com/@DimejiTech" 
+              href="https://youtube.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="glass-card p-3 hover-lift hover:border-primary/50 transition-colors"
